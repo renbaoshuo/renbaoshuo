@@ -1,9 +1,10 @@
 #!/bin/bash
 
 mkdir -p ~/.ssh
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCVy8OJ+Yh0NTNCswHkkqFPnYoO4EDLZIr5Uf49ktYlscbwsEVv0wHJ5nQnbwijcVdtVr1aMoCqAQQiTnkCN5JlTKY0NTELvX/Re8yIPpHt0LXnZ4DRNJKjyasKGoMqtk5eJprrpqUshKXnIajAeR1uURT70SPnSHgDVmBO2C8n8dP5DUZaYIIJf2EzxerZJagrVvjB1WcWlmNn8waO5E6VPbiIk7MlPcqE9ICHtGBv7CJpEMNmOofP/d+pbZ7Sghe2BiMQ6BSFMGNill3ctlqL/Qde/TDlqzr75H/JwaeEgGrJGYtrthdtSH75rxoN0oNsPSO6aTAZd6GozTNOaArQHVkNjYlE8qfEPHZqJAtV3wTGJO+fa4T1E0zn36KHSptJYxrZ8VYNS+/YRd4lnAcvrlfhmO6DVq7YZkZvaLMUM2kF7EEjmO+yV++M6nzyeJ38eSVxv2fuBvqdyQ1oD8UhzmkgSiNVnuXqvHisI5MxEXFOfz6ml8WlIKZ+B1JVF9M= renbaoshuo" >> ~/.ssh/authorized_keys
-echo "[INFO] Successfully added SSH key: renbaoshuo"
+echo $(curl -Ls "https://github.com/renbaoshuo.keys") >> ~/.ssh/authorized_keys
+echo -e "\033[32mINFO\033[0m Successfully added SSH key: renbaoshuo"
 sed -i 's/^#\?PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
-echo "[INFO] Successfully disabled password authentication"
+PasswordAuthentication=$(cat /etc/ssh/sshd_config | grep "PasswordAuthentication no" | awk '{print $2}')
+echo -e "\033[32mINFO\033[0m Password authentication: ${PasswordAuthentication}"
 systemctl restart sshd
-echo "[INFO] Successfully restarted sshd.service"
+echo -e "\033[32mINFO\033[0m Successfully restarted sshd.service"
