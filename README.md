@@ -9,7 +9,7 @@
 <a href="https://t.me/baoshuo">Telegram</a>
 </p>
 
-My GPG key ID: **`D79D3B7E00D42042`**
+GPG key ID: [**`D79D3B7E00D42042`**](https://keys.openpgp.org/vks/v1/by-fingerprint/60E46C33C022FA15DBB326837C7AE7B1CE4FF525)
 
 ## Github Stats
 
