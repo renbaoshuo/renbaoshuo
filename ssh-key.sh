@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir -p ~/.ssh
-echo $(curl -Ls "https://github.com/renbaoshuo.keys") >> ~/.ssh/authorized_keys
+curl -Ls https://github.com/renbaoshuo.keys >> ~/.ssh/authorized_keys
 echo -e "\033[32mINFO\033[0m Successfully added SSH key: renbaoshuo"
 sed -i 's/^#\?PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
 PasswordAuthentication=$(cat /etc/ssh/sshd_config | grep "PasswordAuthentication no" | awk '{print $2}')
