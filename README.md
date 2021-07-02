@@ -20,11 +20,11 @@ GPG key ID: [**`D79D3B7E00D42042`**](https://keys.openpgp.org/vks/v1/by-fingerpr
 Only the latest **5** articles are displayed here.
 
 <!--START_SECTION:posts-->
+* [S2OJ - #438 bamboo](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;solution-s2oj-438&#x2F;)
 * [搭建 BIRD Looking Glass 速成指北](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;bird-looking-glass&#x2F;)
 * [初探 DN42 网络](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;dn42-network&#x2F;)
 * [年轻人的第一个 ASN](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;my-own-asn&#x2F;)
 * [初识 Service Worker —— 使用 Workbox 快速开发 Service Worker](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;workbox-service-worker&#x2F;)
-* [浅谈网页「深色模式」的实现](https:&#x2F;&#x2F;blog.baoshuo.ren&#x2F;post&#x2F;about-darkmode&#x2F;)
 <!--END_SECTION:posts-->
 
 **See more on [blog.baoshuo.ren](https://blog.baoshuo.ren).**
