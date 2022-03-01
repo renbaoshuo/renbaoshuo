@@ -50,5 +50,5 @@ jobs:
           plugin_wakatime_sections: time, languages-graphs, os-graphs
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: renbaoshuo
-          repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner, collaborator
           repositories_forks: yes
