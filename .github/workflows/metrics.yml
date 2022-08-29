@@ -13,6 +13,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -24,13 +26,11 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
-          repositories: 1000
-          repositories_batch: 25
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Asia/Shanghai
           config_twemoji: yes
-          config_gemoji: no
+          config_octicon: yes
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_wakatime: yes
