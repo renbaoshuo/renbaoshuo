@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          committer_branch: v2-dist
           token: ${{ secrets.GH_TOKEN }}
 
           # Options
