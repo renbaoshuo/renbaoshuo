@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - v2
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -21,10 +22,14 @@ jobs:
           user: renbaoshuo
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          repositories: 1000
+          repositories_batch: 25
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Asia/Shanghai
           config_twemoji: yes
           config_gemoji: no
-          config_padding: 8 + 11%
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
@@ -50,6 +55,5 @@ jobs:
           plugin_wakatime_sections: time, languages-graphs, os-graphs
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_other_languages: yes
-          repositories_affiliations: owner, collaborator
-          repositories_forks: yes
+          plugin_wakatime_languages_other: yes
+          plugin_wakatime_languages_ignored: Other
