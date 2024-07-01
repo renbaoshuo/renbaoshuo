@@ -7,10 +7,6 @@
 [Twitter](https://twitter.com/renbaoshuo) ·
 [Telegram Channel](https://t.me/renbaoshuo)
 
-> **Warning**: I am currently preparing for the [National College Entrance Examination](https://en.wikipedia.org/wiki/Gaokao) in 2024.
->
-> To focus on my studies, I will be limiting my online activity and my response to messages may experience significant delays. Thank you for your understanding.
-
 <a href="https://github.com/renbaoshuo#gh-light-mode-only">
   <img src="https://raw.githubusercontent.com/renbaoshuo/profile-readme-stats-card/master/github-readme-stats_renbaoshuo.light.svg#gh-light-mode-only" align="right" alt="My GitHub Stats" />
 </a>
@@ -24,4 +20,5 @@
 - Student and OIer at [@sjzezsyxx](https://github.com/sjzezsyxx)
 - [@hexojs](https://github.com/hexojs) core team member
 - main developer of [@OIerDb-ng](https://github.com/OIerDb-ng)
+- Maintainer of [@UniversalOJ](https://github.com/UniversalOJ)
 - and more...
