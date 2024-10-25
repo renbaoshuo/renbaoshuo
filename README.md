@@ -17,8 +17,9 @@
 
 **I am...**
 
-- Student and OIer at [@sjzezsyxx](https://github.com/sjzezsyxx)
+- Freshman at Fuzhou University
+- [@west2-online](https://site.west2.online/) team leader
 - [@hexojs](https://github.com/hexojs) core team member
-- main developer of [@OIerDb-ng](https://github.com/OIerDb-ng)
-- Maintainer of [@UniversalOJ](https://github.com/UniversalOJ)
+- [@OIerDb-ng](https://github.com/OIerDb-ng) main developer
+- [@UniversalOJ](https://github.com/UniversalOJ) maintainer
 - and more...
