@@ -1,6 +1,6 @@
 # Hello, I'm Baoshuo!
 
-![](https://wakatime-badge.vercel.app/badge?style=flat-square)
+<!-- ![](https://wakatime-badge.vercel.app/badge?style=flat-square) -->
 
 [Homepage](https://baoshuo.ren/?utm_source=github.com&utm_medium=renbaoshuo&utm_campaign=profile-readme) ·
 [Blog (zh-CN)](https://blog.baoshuo.ren/?utm_source=github.com&utm_medium=renbaoshuo&utm_campaign=profile-readme) ·
