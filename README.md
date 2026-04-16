@@ -3,9 +3,11 @@
 <!-- ![](https://wakatime-badge.vercel.app/badge?style=flat-square) -->
 
 [Homepage](https://baoshuo.ren/?utm_source=github.com&utm_medium=renbaoshuo&utm_campaign=profile-readme) ·
-[Blog (zh-CN)](https://blog.baoshuo.ren/?utm_source=github.com&utm_medium=renbaoshuo&utm_campaign=profile-readme) ·
+[Blog](https://blog.baoshuo.ren/?utm_source=github.com&utm_medium=renbaoshuo&utm_campaign=profile-readme) ·
 [Twitter](https://twitter.com/renbaoshuo) ·
-[Telegram Channel](https://t.me/renbaoshuo)
+[Telegram](https://t.me/renbaoshuo)
+
+**[>>> ❤️ GitHub Sponsor <<<](https://github.com/sponsors/renbaoshuo)**
 
 <a href="https://github.com/renbaoshuo#gh-light-mode-only">
   <img src="https://raw.githubusercontent.com/renbaoshuo/profile-readme-stats-card/master/github-readme-stats_renbaoshuo.light.svg#gh-light-mode-only" align="right" alt="My GitHub Stats" />
